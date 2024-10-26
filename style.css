@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:  sans-serif;
+    
+     }
+
+
+    .card{
+        padding-top: 20px;
+        color: rgb(38, 67, 163);
+        background-color: #e3e7eb;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: stretch; 
+      height: 100vh;
+    }
+    .card .quiz-info {
+        width: 100%;
+        display: flex;
+        position: relative;
+        color:#1a6d81 ;
+        padding:15px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        margin: 10px auto;
+  background-color: #f8f8f8;
+  justify-content: space-around;
+    }
+     .quiz-info .category{
+        max-width: 45% ;
+        flex: 1;
+    }
+    .quiz-info .count{
+        text-align: right;
+        max-width: 50% ;
+    }
+    .quiz-area{
+        background-color: #f8f8f8;
+        margin: 10px auto;
+        height: 90px;
+        color:#1a6d81 ;
+        padding: 5px;
+        text-align: left;
+        width: 100%;
+        border-radius: 3px;
+        
+    }
+    .quiz-area h2{
+        margin-left: 30px;
+    }
+    .answer-area{
+        padding: 20px;
+        margin: 5px auto;
+        background-color: #f8f8f8;
+        color:#1a6d81 ;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+        border-radius: 3px;
+        }
+
+        .answer{
+            margin-left: 0;
+            padding:8px;
+            
+        }
+        .answer:not(:last-child){
+            border-bottom: 2px solid #1a6d81;
+        }
+        .answer input[type="Radio"]:checked + label{
+            color: #0075ff;
+        }
+        .answer label{
+            cursor: pointer;
+            margin-left: 8px;
+            }
+
+  .btn{
+    padding: 6px;
+    font-weight: bold;
+    color:#eaedee ;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background-color: #1a6d81;
+border: none;   
+width: 100%; }
+
+.submit-button:focus{
+    outline: none;
+}
+.btn:hover{
+    background: none;
+    color: #1a6d81;
+}
+
+.bullets{
+    display: flex;
+    background-color: #e3e7eb;
+    padding: 15px;
+    width: 100%;
+    margin: 10px auto;
+    color:#1a6d81 ;
+    font-weight: bold;
+    position: relative;
+    }
+    .bullets .spans{
+        flex: 1;
+        display: flex;
+    }
+    .bullets .spans span{
+        width: 23px;
+        height: 23px;
+        background-color:#949da8;
+        margin-right: 5px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color:  #e3e7eb;
+       margin-top: 10px;
+    }
+    .spans span.on{
+        background-color:#0075ff;
+    }
+    
+    .result{
+        color:#1a6d81 ;
+    }
+    .result span{
+        
+        font-weight: bold;
+    }
+    .result span.bad{
+        color:#d10a0a ;
+        font-size: 20px;
+    }
+    .result span.good{
+        color:#1a6d81 ;
+        font-size: 20px;
+    }
+    .result span.perfect{
+        color:#13a532 ;
+        font-size: 20px;
+    }
+    
+    .countDown{
+text-align: right;
+    }
+    @media (max-width:500px){
+        .quiz-area{
+            background-color: #f8f8f8;
+            margin: 10px auto;
+            height: 140px;
+            color:#1a6d81 ;
+            
+            text-align: left;
+            width: 100%;
+            border-radius: 3px;
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+        }
+
+        .quiz-area h2{
+            font-size: 19px;
+            font-weight: bold;
+            width: 100%;
+        }
+        .answer{
+            margin-left: 0;
+            height: 70px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .quiz-info .category{
+            width: 50% ;
+            flex: 1;
+           font-size: 17px;
+            font-weight: bold;
+        }
+        .quiz-info .count{
+            text-align: right;
+            width: 50% ;
+            font-size: 17px;
+            font-weight: bold;
+        }
+    
+        }
+
+   

@@ -1,0 +1,195 @@
+[
+    {
+        "title":"Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+       "answer_1":"alt",
+       "answer_2":"src",
+       "answer_3":"title",
+       "answer_4":"none",
+
+    "right_answer":"alt"
+    },
+    {
+        "title":"why we use <br> element ?",
+        "answer_1":"to make text bold",
+        "answer_2":"to make text alone",
+        "answer_3":"to make text horezental line",
+        "answer_4":"to add breakline",
+    
+        "right_answer":"to add breakline"
+    },
+    {
+        "title":"why we use <hr> element ?",
+        "answer_1":"to make text bold",
+        "answer_2":"to make text alone",
+        "answer_3":"to add horezental line",
+        "answer_4":"to add breakline",
+       
+        "right_answer":"to add horezental line"
+    },
+    {
+        "title":"where we use Dom And Bom element ?",
+        "answer_1":"in HTML5",
+        "answer_2":"in CSS3",
+        "answer_3":"in Bootstrap",
+        "answer_4":"in JavaScript",
+       
+        "right_answer":"in JavaScript"
+    },
+    {
+        "title":"any array in world is started from index ?",
+        "answer_1":"1",
+        "answer_2":"true",
+        "answer_3":"0",
+        "answer_4":"zero",
+     
+        "right_answer":"0"
+    },
+    {
+        "title":"what is the mean Dom ?",
+        "answer_1":"document object matrex",
+        "answer_2":"document object model",
+        "answer_3":"to make text bold",
+        "answer_4":"to add breakline",
+       
+"right_answer":"document object model"
+    },
+    {
+       "title":"What does HTML stand for?",
+       "answer_1":"Hyper Text Markup Language",
+       "answer_2":"Hyperlinks and Text Markup Language",
+       "answer_3":"Home Tool Markup Language",
+       "answer_4":"Hyper Text Mark up Language",
+
+    "right_answer":"Hyper Text Markup Language"
+    },
+    {
+        "title":"Choose the correct HTML element for the largest heading:",
+       "answer_1":"<h1>",
+       "answer_2":"<heading>",
+       "answer_3":"h6",
+       "answer_4":"head",
+
+    "right_answer":"<h1>"
+    },
+    {
+        "title":"What is the correct HTML element for inserting a line break?",
+       "answer_1":"<br>",
+       "answer_2":"<break>",
+       "answer_3":"hr",
+       "answer_4":"/n",
+
+    "right_answer":"<br>"
+    },
+    {
+        "title":"What is the correct HTML for adding a background color?",
+       "answer_1":"<body bg='yellow'>",
+       "answer_2":"<body style:'background-color:yellow;'>",
+       "answer_3":"< background >yellow</background>",
+       "answer_4":"<body background='yellow'>",
+
+    "right_answer":"<body style:'background-color:yellow;'>"
+    },
+    {
+        "title":"Choose the correct HTML element to define important text",
+       "answer_1":"<strong >",
+       "answer_2":"<i>",
+       "answer_3":"<b>",
+       "answer_4":"<important>",
+
+    "right_answer":"<strong >"
+    },
+    {
+        "title":"What is the correct HTML for creating a hyperlink?",
+       "answer_1":"<a >http://www.w3schools.com </a >",
+       "answer_2":"<a href='http://www.w3schools.com'>W3Schoo|s</a>",
+       "answer_3":"<a name='http://www.w35chools.com'>W35chools.com </a>",
+       "answer_4":"<a url='http://www.w3schools.com' >W35choo|s.com</a >",
+
+    "right_answer":"<a href='http://www.w3schools.com'>W3Schoo|s</a>"
+    },
+    {
+        "title":"How can you open a link in a new tab/browser window?",
+       "answer_1":"<a href='url' target='_blank'>",
+       "answer_2":"<a href='url' new>",
+       "answer_3":"<a href='url' target='new'>",
+       "answer_4":"<a href='url' target='blank'>",
+
+    "right_answer":"<a href='url' target='_blank'>"
+    },
+    {
+        "title":"How can you open a link in a new tab/browser window?",
+       "answer_1":"True",
+       "answer_2":"False",
+       "answer_3":"If you were interested, you would have known on your own",
+       "answer_4":"none",
+
+    "right_answer":"True"
+    },
+    {
+        "title":"What is the correct HTML for making a checkbox?",
+       "answer_1":"<check>",
+       "answer_2":"<input type='check'>",
+       "answer_3":"< input type='checkbox'>",
+       "answer_4":"<checkbox>",
+
+    "right_answer":"< input type='checkbox' >"
+    },
+    {
+        "title":"What is the correct HTML for making a text area?",
+       "answer_1":"<textarea >",
+       "answer_2":"< input type='textbox' >",
+       "answer_3":"< input type='textarea'>",
+       "answer_4":"<checkbox>",
+
+    "right_answer":"<img input type='checkbox' >"
+    },
+    {
+        "title":"What is the correct HTML for inserting an image?",
+       "answer_1":"<img src:'image.gif' alt:'Mylmage'>",
+       "answer_2":"<img href:'image.gif' alt:'Mylmage'>",
+       "answer_3":"<img alt:'Mylmage'>image.gif</img>",
+       "answer_4":"<image src:'image.gif' alt:'Mylmage'>",
+
+    "right_answer":"<img src:'image.gif' alt:'Mylmage'>"
+    },
+    {
+        "title":"HTML comments start with <!-- and end with -->",
+       "answer_1":"True",
+       "answer_2":"False",
+       "answer_3":"i dont care",
+       "answer_4":"none",
+
+    "right_answer":"True"
+    },
+    {
+        "title":"Block elements are normally displayed without starting a new line.",
+       "answer_1":"True",
+       "answer_2":"False",
+       "answer_3":"i dont care",
+       "answer_4":"none",
+
+    "right_answer":"True"
+    },
+    {
+        "title":"Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+       "answer_1":"alt",
+       "answer_2":"src",
+       "answer_3":"title",
+       "answer_4":"none",
+
+    "right_answer":"alt"
+    },
+    {
+        "title":"In HTML, which attribute is used to specify that an input field must be filled out?",
+       "answer_1":"validate",
+       "answer_2":"placeholder",
+       "answer_3":"required",
+       "answer_4":"none",
+
+    "right_answer":"required"
+    }
+
+
+
+    
+]
